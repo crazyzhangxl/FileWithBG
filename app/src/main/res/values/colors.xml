@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--属性-->
+    <color name="btn_default_color_light">#ffff5f11</color>
+    <color name="btn_pressed_color_light">#fffdfdfd</color>
+    <color name="btn_focused_color_yellow">#fffdfdfd</color>
+
+    <color name="alpha_home_listview_black">#08000000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

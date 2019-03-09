@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<icons>
+    <!--xml解析即可 哈哈 -->
+    <icon title="理发" src="home_icons/20180410153411meifa.png" sort="10" />
+    <icon title="美容SPA" src="home_icons/20180410153742meirongspa.png" sort="9" />
+    <icon title="登山" src="home_icons/20180410170055zhoubianyou.png" sort="8" />
+    <icon title="景点/门票" src="home_icons/20180410170812jingdianmenpiao.png" sort="7" />
+    <icon title="洗浴/汗蒸" src="home_icons/20180410233159xiyu.png" sort="6" />
+    <icon title="休闲娱乐" src="home_icons/20180412221117play.png" sort="5" />
+    <icon title="理发" src="home_icons/20180412222204jiudian01.png" sort="4" />
+    <icon title="酒店" src="home_icons/20180412225125waimai.png" sort="3" />
+    <icon title="足疗" src="home_icons/20180412232301zuliao.png" sort="2" />
+    <icon title="亲子/乐园" src="home_icons/20180413100038qinzileyuannew.png" sort="1" />
+    <icon title="摄影" src="home_icons/20180413100443ertongsheyingnew.png" sort="11" />
+    <icon title="亲子游戏" src="home_icons/20180413100458qinziyoulenew.png" sort="12" />
+    <icon title="孕妇" src="home_icons/20180413100714yunchanhulinew.png" sort="13" />
+    <icon title="打车" src="home_icons/20180413101631lovecar.png" sort="20" />
+    <icon title="到家" src="home_icons/20180413103310daojia.png" sort="19" />
+    <icon title="结婚" src="home_icons/20180413110314jiehun.png" sort="18" />
+    <icon title="婚庆" src="home_icons/20180413110836hunqing.png" sort="17" />
+    <icon title="旅游" src="home_icons/20180413111110lvpai.png" sort="16" />
+    <icon title="沙发" src="home_icons/20180413112209jjzx.png" sort="15" />
+    <icon title="医疗" src="home_icons/20180413120805yiliao.png" sort="14" />
+</icons>

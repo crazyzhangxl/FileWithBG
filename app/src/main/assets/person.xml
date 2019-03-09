@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 测试数据-->
+<data>
+    <person>
+        <name>小张</name>
+        <age>18</age>
+        <sex>男</sex>
+    </person>
+
+    <person>
+        <name>小力</name>
+        <age>15</age>
+        <sex>男</sex>
+    </person>
+
+    <person>
+        <name>小丽</name>
+        <age>17</age>
+        <sex>女</sex>
+    </person>
+</data>

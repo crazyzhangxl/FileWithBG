@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".file.FontActivity">
+    <TextView
+        android:text="我是初版本"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="我是有排面的字体1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="我是有排面的字体1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="我是另外一种字体"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTwo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="我是另外一种字体"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Switch
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:layout_marginLeft="20dp"
+        android:checked="true"
+        android:thumb="@drawable/movie_switch_thumb"
+        android:track="@drawable/movie_switch_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        style="@style/CustomNormalButton"
+        android:text="你好"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:hint="你好"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

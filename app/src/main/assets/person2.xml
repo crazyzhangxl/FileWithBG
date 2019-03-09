@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <person name="小张" age="18" sex="男" />
+    <person name="小李" age="13" sex="女"/>
+    <person name="小王" age="12" sex="男"/>
+    <person name="小白" age="15" sex="女"/>
+</data>

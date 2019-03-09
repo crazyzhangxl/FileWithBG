@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="._imageview.IvHalfAlphaActivity">
+    <!-- 原始图-->
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/beauty"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+    <!-- 设置colorFilter-->
+    <ImageView
+        android:id="@+id/ivOrigin"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/beauty"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+    <!--设置alpha-->
+    <ImageView
+        android:alpha="0.5"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/beauty"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+    <!--外围包裹一层 透明背景-->
+    <FrameLayout
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:src="@drawable/beauty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="#80ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <!--
+        重新自定义,设置画笔 setAlpha(180)即可
+        再进行绘制
+        paint.setAlpha(180);
+        canvas.drawBitmap(bitmap,
+                          new Rect(0,0,bitmap.getWidth(),bitmap.getHeight),
+                          new Rect(0,0,bitmap.getWidth(),bitmap.getHeight),
+                          paint);
+     -->
+
+
+</LinearLayout>
